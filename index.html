@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrar elementos con FlexBox</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        header {
+            background-image: url('https://i.etsystatic.com/9520660/r/il/1edfc7/801236649/il_794xN.801236649_2yvx.jpg');
+            background-size: cover;
+            height: 300px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #sec1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+
+        #sec2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            background-color: lightblue;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="text-align: center;">
+            <h1>Visite Toledo</h1>
+            <h2>La ciudad de las Tres Culturas</h2>
+        </div>
+    </header>
+    <section id="sec1">
+        <p style="font-style: italic;">Una experiencia inolvidable</p>
+    </section>
+    <section id="sec2">
+        <img src="https://turismodebienestar.com/wp-content/uploads/2020/01/que-ver-en-toledo_opt.jpg" alt="">
+    </section>
+</body>
+</html>
